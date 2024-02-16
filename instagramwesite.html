@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram website</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        nav{
+            display: flex;
+           
+        }
+        section{
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+        }
+        .pagehead img{
+            margin-top: 70px;
+            border-radius: 80px;
+            border: 3px solid gray;
+        }
+        .name{
+            margin-top: 50px;
+            margin-left: 30px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }   
+        .edit{
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        .edit span{
+            font-family: sans-serif;
+            font-size: 13px;
+            padding: 5px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: lightgray;
+            color: black;
+        }
+        .pagehead{
+            display: flex;
+            margin-right: 40px;
+            margin-left: 100px;
+        }
+        .view{
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        .view span{
+            font-family: sans-serif;
+            font-size: 13px;
+            background-color: lightgray;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+           
+        }
+        .bi-gear-wide{
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+        .check{
+            margin-top: 90px;
+            margin-left: 15px;
+        }
+        .check span{
+            margin-left:-335px ;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        .bio{
+            margin-top: 120px;
+            margin-left: 15px;
+        }
+        li{
+            margin-left: -390px;
+            list-style: none;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        .highlight{
+            display: flex;
+        }
+        .highlight img{
+            margin-top: 30px;
+            border-radius: 50px;
+            margin-left: 50px;
+            border: 3px solid gray;
+        }
+        .bi-plus-circle {
+           margin-left: 100px;
+           margin-top: 30px;
+        }
+        p{
+            margin-left: 75px;
+            margin-top: -3px;
+        }
+        .post{
+            display: flex;
+        }
+        .post1{
+            margin-left: -300px;
+        }
+        .font{
+            font-family: French Script MT;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .house{
+            margin-top: 50px;
+            padding: 0.5px;
+            margin-left: 35px;
+            font-family: sans-serif;
+        }
+        .house span{
+            margin-right: 5px;
+        }
+        .vertical{
+            border-left: 0.5px solid gray;
+            height: 800px;
+            position: right;
+            right: 50%;
+            margin-left: 150px;
+            margin-top: 0px;    
+        }
+        .photo{
+            display: flex;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .photo span{
+            margin-right: 5px;
+        }
+        .p1{
+            margin-left: 200px;
+        }
+        .p2{
+            margin-left:50px;
+        }
+        .p3{
+            margin-left: 50px;
+        }
+        .card{
+			background-color: white;
+			box-shadow: 2px 2px 2px 2px black;
+			height: 260px;
+			margin-bottom: 15px;
+			margin-top: 20px;
+			width: 260px;
+			margin-left: -20px;
+		}
+        .insta-post{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+        }
+
+         .panel
+        {
+            width: 60px;
+            position: fixed;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        
+            
+        <nav>
+            
+            <div>
+                <div class="font">
+                    Instagram
+                </div>
+               <div class="house">
+                <span class="bi bi-house-check"></span>
+                Home
+               </div>
+               <div class="house">
+                <span class="bi bi-search"></span>
+                Search
+               </div>
+               <div class="house">
+                <span class="bi bi-filter-circle"></span>
+                Explore
+               </div>
+               <div class="house">
+                <span class="bi bi-camera-reels"></span>
+                Reels
+               </div>
+               <div class="house">
+                <span class="bi bi-chat-dots"></span>
+                Masseges
+               </div>
+               <div class="house">
+                <span class="bi bi-heart"></span>
+                Notification
+               </div>
+               <div class="house">
+                <span class="bi bi-plus-square"></span>
+                Create
+               </div>
+               <div class="house">
+                <span class="bi bi-person-circle"></span>
+                Profile
+               </div>
+               <div class="house">
+                <span class="bi bi-justify"></span>
+                More
+               </div>
+            </div>
+            
+            <div class="vertical"></div>
+        </nav>
+       
+               <main>
+            <div class="pagehead">
+               <div>                   
+                <img src="public/images/profilepic.jpg" width="120">
+               </div> 
+              <div class="name">
+                <span class="name">Itz_abhyaa_03</span>
+              </div>
+              <div class="edit">
+                  <span>Edit profile</span>
+              </div>
+              <div class="view">
+                  <span>View Archive</span>
+              </div>
+                <span class="bi bi-gear-wide"></span>
+            
+            <div class="check">
+                <span>7 post  &nbsp; 566 followers  &nbsp; 558 following</span>
+
+            </div>
+            <div>
+                <div>
+                    <div class="bio">
+                        <ul>
+                            <li>🍁 𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝙰𝚑𝚎𝚛 🍁</li>
+                            <li>⛳"|| પ્રતિપધ્વંદ્રલેએવ વર્ધિભ્રુર્વિશ્વવંદિતા </li>
+                               <li> શાહમુનોશિવશૈષ: મુદ્રામદ્રાય રાબતે ||"⛳</li>
+                             <li>😘 छ. संभाजीनगरकर MH20</li>
+                           <li>  👉Don't complain..rebuild yourself...💯😎</li>
+                        </ul>
+                     </div>
+                    </div>   
+                 </div>
+            </div>
+            <div class="highlight">
+                <div>
+                    <img src="public/images/highlight.jpg" width="80">
+                    <p>story</p>
+                </div>
+            </div>
+            <hr style="width:85%;text-align:left;margin-left:0">
+            </div>
+            <div class="photo">     
+            <div class="p1">
+                <span class="bi bi-postcard-heart-fill"></span>
+                POST
+            </div>
+            <div class="p2">
+                <span class="bi bi-save"></span>
+                SAVED
+            </div>
+            <div class="p3">
+                <span class="bi bi-bookmark-plus-fill"></span>
+               TAGGED
+            </div>
+            </div>
+
+            <div class="insta-post">
+                <div class="card">
+                    <div class="card-body">
+                         <img src="public/images/post1.jpg" width="260px" height="260px">
+                    </div> 
+                 </div>
+                 <div class="card">
+                     <div class="card-body">
+                          <img src="public/images/post2.jpg" width="260px" height="260px">
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card-body">
+                          <img src="public/images/post3.jpg" width="260px" height="260px">
+                     </div> 
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                         <img src="public/images/post4.jpg" width="260px" height="260px">
+                    </div> 
+                 </div>
+                 <div class="card">
+                    <div class="card-body">
+                         <img src="public/images/post5.jpg" width="260px" height="260px">
+                    </div> 
+                 </div>
+                 <div class="card">
+                    <div class="card-body">
+                         <img src="public/images/post6.jpg" width="260px" height="260px">
+                    </div> 
+                 </div>
+                 </div>
+            </div>
+            
+        </main>
+    </section>
+</body>     
+</html>
